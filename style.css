@@ -1,0 +1,129 @@
+* {
+  justify-content: center;
+  margin-left: 0;
+}
+.headerBox {
+  display: flex;
+  margin-left: 0;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+.headerBox button {
+  cursor: pointer;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 210, 144);
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  height: 40px;
+  /*margin-left: 20px;
+  background-color: rgb(0, 210, 144);
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;*/
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+.location {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+  margin-top: 0px;
+  font-size: 10px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  width: 400px;
+  justify-content: space-around;
+}
+.download {
+  display: flex;
+  background: black;
+  height: 45px;
+  color: white;
+  justify-content: space-around;
+}
+.download {
+  text-align: justify;
+}
+.poster {
+  margin-top: 20px;
+}
+.poster img {
+  border-radius: 15px;
+  height: 500px;
+  width: 1200px;
+}
+button {
+  position: absolute;
+  top: 80%;
+  bottom: 50%;
+  right: 78%;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+}
+.cards {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+.cards a img {
+  width: 300px;
+  border-radius: 5%;
+}
+.pick {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+
+  margin: 0;
+}
+.pick a img {
+  width: 260px;
+  border-radius: 5%;
+}
+.phone {
+  display: flex;
+
+  margin-top: 20px;
+  background-color: rgb(236, 228, 228);
+
+  justify-content: center;
+}
+.phone a img {
+  justify-content: space-around;
+}
+.phone h1 {
+  width: 50%;
+}
+.phoneapp {
+  display: flex;
+  flex-direction: column;
+}
+.foot {
+  background: rgb(23, 30, 48);
+  color: white;
+  line-break: auto;
+  height: 500px;
+
+  margin-top: 20px;
+}
+.foot div {
+  justify-content: space-around;
+}
+.foot p {
+  margin-top: 20px;
+}
+.foot ul li {
+  padding-bottom: 10px;
+}
+.links {
+  display: flex;
+}
